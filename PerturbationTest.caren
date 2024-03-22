@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAREN3Layout version="3.34.3">
+  <Modules>
+    <module id="1" icon="Parameter" x="654" y="604" label="Parameter" title="Parameter"/>
+    <module id="2" icon="Script" x="766" y="604" label="Script" title="Script"/>
+    <module id="7" icon="MoCap" x="734" y="460" label="MoCap" title="MoCap"/>
+    <module id="4" icon="Record" x="910" y="604" label="Record" title="Record"/>
+    <module id="3" icon="SelfPacedTreadmill" x="830" y="460" label="SelfPacedTreadmill" title="SelfPacedTreadmill"/>
+    <module id="8" icon="Platform" x="638" y="460" label="Platform" title="Platform"/>
+    <module id="9" icon="3DText" x="734" y="332" label="3DText" title="3DText"/>
+    <module id="10" icon="3DText" x="830" y="332" label="3DText" title="3DText"/>
+    <module id="5" icon="Graph" x="910" y="700" label="Graph" title="Graph"/>
+    <module id="11" icon="SoundPlayer" x="638" y="332" label="SoundPlayer" title="SoundPlayer"/>
+    <module id="6" icon="Phidgets2" x="926" y="460" label="Phidgets" title="Phidgets"/>
+  </Modules>
+  <Connectors>
+    <connector id="12">
+      <Boxes>
+        <box id="13" x="64" y="154"/>
+        <box id="14" x="-80" y="114"/>
+      </Boxes>
+      <Wires>
+        <wire id="15"/>
+        <wire id="16"/>
+        <wire id="17"/>
+        <wire id="18"/>
+        <wire id="19"/>
+        <wire id="20"/>
+        <wire id="21"/>
+        <wire id="22"/>
+        <wire id="23"/>
+        <wire id="24"/>
+        <wire id="25"/>
+        <wire id="26"/>
+        <wire id="27"/>
+      </Wires>
+    </connector>
+    <connector id="28">
+      <Boxes>
+        <box id="29" x="64" y="34"/>
+        <box id="30" x="-80" y="2010"/>
+      </Boxes>
+      <Wires>
+        <wire id="31"/>
+        <wire id="32"/>
+      </Wires>
+    </connector>
+    <connector id="33">
+      <Boxes>
+        <box id="34" x="64" y="50"/>
+        <box id="35" x="-80" y="2010"/>
+      </Boxes>
+      <Wires>
+        <wire id="36"/>
+        <wire id="37"/>
+      </Wires>
+    </connector>
+    <connector id="38">
+      <Boxes>
+        <box id="39" x="64" y="34"/>
+        <box id="40" x="-80" y="58"/>
+      </Boxes>
+      <Wires>
+        <wire id="41"/>
+        <wire id="42"/>
+      </Wires>
+    </connector>
+    <connector id="43">
+      <Boxes>
+        <box id="44" x="64" y="34"/>
+        <box id="45" x="-80" y="58"/>
+      </Boxes>
+      <Wires>
+        <wire id="46"/>
+        <wire id="47"/>
+      </Wires>
+    </connector>
+    <connector id="48">
+      <Boxes>
+        <box id="49" x="64" y="34"/>
+        <box id="50" x="-80" y="74"/>
+      </Boxes>
+      <Wires>
+        <wire id="51"/>
+      </Wires>
+    </connector>
+  </Connectors>
+  <Groups>
+    <group title="Hardware" description="" color="60" x="630" y="436" w="368" h="96">
+      <modules>
+        <UnsignedIntArray>
+          <UnsignedInt value="7"/>
+          <UnsignedInt value="3"/>
+          <UnsignedInt value="8"/>
+          <UnsignedInt value="6"/>
+        </UnsignedIntArray>
+      </modules>
+    </group>
+    <group title="Perturbation" description="" color="72" x="646" y="580" w="192" h="96">
+      <modules>
+        <UnsignedIntArray>
+          <UnsignedInt value="2"/>
+          <UnsignedInt value="1"/>
+        </UnsignedIntArray>
+      </modules>
+    </group>
+  </Groups>
+  <Editor x="630" y="998"/>
+</CAREN3Layout>

@@ -1,0 +1,27 @@
+<SceneConfig>
+    <String tag="scene" value="" />
+    <StringArray tag="scenes" />
+    <Lookup tag="settings">
+        <Boolean tag="axes" value="1" />
+        <Boolean tag="camera_light" value="1" />
+        <Light tag="camera_light_settings">
+            <Integer tag="Type" value="0" />
+            <Vector3 tag="Position" x="0" y="1" z="0" />
+            <Vector3 tag="Direction" x="0" y="-1" z="0" />
+            <Color tag="Diffuse" x="1" y="1" z="1" w="1" />
+            <Color tag="Specular" x="1" y="1" z="1" w="1" />
+            <Real tag="AttenuationRange" value="1000" />
+            <Real tag="AttenuationConstant" value="1" />
+            <Real tag="AttenuationLinear" value="0" />
+            <Real tag="AttenuationQuadric" value="0" />
+            <Real tag="SpotlightInnerAngle" value="0" />
+            <Real tag="SpotlightOuterAngle" value="0.785398" />
+            <Real tag="SpotlightFalloff" value="1" />
+            <Boolean tag="CastShadows" value="0" />
+            <Boolean tag="SpecularEnabled" value="0" />
+        </Light>
+        <Boolean tag="grid" value="1" />
+    </Lookup>
+    <Array tag="objects" />
+    <Array tag="lights" />
+</SceneConfig>
